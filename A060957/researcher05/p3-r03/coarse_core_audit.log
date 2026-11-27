@@ -1,0 +1,2 @@
+n=69819 p=59; archived two modes; chain L1 distance=16; D_q= {2: 16, 3: 16, 5: 16, 7: 16, 11: 16, 13: 16, 17: 16, 19: 16, 23: 16, 29: 16, 31: 16, 37: 16, 41: 16}
+For primes outside Q and distinct from p, stripping q has no effect. All D_q=16. Pure buffer T=3, gap g=1. No asymptotic inference.

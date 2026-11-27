@@ -1,0 +1,6 @@
+n=102 radix=2103750 small=2,3,5,7,
+small leaves=0 checks=0
+shape_filter k=6 before=6 after=5
+large k=5 leaves=18910
+PASS_PART n=102 only=5 small_checks=0 large_checks=18910 seconds=75.0919
+real=75.15 maxrss_kb=15608 exit=0

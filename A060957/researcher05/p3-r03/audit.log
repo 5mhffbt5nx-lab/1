@@ -1,0 +1,17 @@
+Packed guard independent random exact tests: 10000
+Saturation local merge exact tests: 76081
+102 small expected per axis 94510 covered [2, 3, 5, 7]
+102 11 direct 10510
+102 13 saturation exact all patterns excluded
+102 17 saturation exact all patterns excluded
+102 19 saturation exact all patterns excluded
+102 23 saturation exact all patterns excluded
+COVERAGE 102 total 26 covered 26 missing []
+104 small expected per axis 113420 covered [2, 3, 5, 7]
+104 11 exact integer certificates 16
+104 13 exact integer certificates 6
+104 17 saturation exact all patterns excluded
+104 19 saturation exact all patterns excluded
+104 23 saturation exact all patterns excluded
+COVERAGE 104 total 27 covered 27 missing []
+CONTIGUOUS conditional on earlier n<=101: 104

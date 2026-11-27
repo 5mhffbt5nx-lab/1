@@ -1,0 +1,5 @@
+n=102 radix=2103750 small=2,3,5,7,
+small leaves=0 checks=0
+large k=6 leaves=18910
+PASS_PART n=102 only=6 small_checks=0 large_checks=18910 seconds=74.6616
+real=74.75 maxrss_kb=16284 exit=0

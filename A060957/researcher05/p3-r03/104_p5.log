@@ -1,0 +1,5 @@
+n=104 radix=2254200 small=5,2,3,7,
+shape_filter k=8 before=8 after=7
+small leaves=113420 checks=113420
+PASS_PART n=104 only=0 small_checks=113420 large_checks=0 seconds=40.3164
+real=40.32 maxrss_kb=5160 exit=0

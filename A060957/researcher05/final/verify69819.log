@@ -1,0 +1,4 @@
+n,p= 69819 59 positive/negative/neutral= 5082 1920 19
+neutral= [1, 59, 551, 713, 814, 861, 1105, 3481, 32509, 42067, 48026, 50799, 62951, 65195, 65395, 67146, 69223, 69290, 69819] count vectors=15552; exact solutions= [(0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1), (2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0)]
+DP states= 755 relative fiber= [0, 1, 2, 3, 5, 6, 7, 8] common p exponent= 417
+PASS: original global counterexample m=C*Z*p^3, m and p^2*m present, p*m absent. No Lean claim.
