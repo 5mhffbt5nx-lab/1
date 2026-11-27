@@ -1,0 +1,22 @@
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+'A060957.Case130203.disproof' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.Case130203.disproof_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+A060957.Case130203.counterexample130203 :
+  Nat.Prime A060957.Case130203.p ∧
+    A060957.Case130203.p ≤ A060957.Case130203.N ∧
+      A060957.InP A060957.Case130203.N A060957.Case130203.M ∧
+        ¬A060957.InP A060957.Case130203.N (A060957.Case130203.p * A060957.Case130203.M) ∧
+          A060957.InP A060957.Case130203.N (A060957.Case130203.p ^ 2 * A060957.Case130203.M)
+A060957.Case130203.disproof_source :
+  ¬∀ (n p : ℕ),
+      Nat.Prime p →
+        p ≤ n →
+          ∀ (m a_exp : ℕ),
+            m ∈ A060957.productsOfSubsets n →
+              p ^ a_exp * m ∈ A060957.productsOfSubsets n →
+                ∀ (k : ℕ), 0 < k → k < a_exp → p ^ k * m ∈ A060957.productsOfSubsets n
+'A060957.Case130203.counterexample130203' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.Case130203.disproof_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+A060957.Case130203.counterexample130203 ['Classical.choice', 'Quot.sound', 'propext']
+A060957.Case130203.disproof_source ['Classical.choice', 'Quot.sound', 'propext']
+Axiom allow-list passed for supplied log. Check actual Lean exit status and provenance separately.

@@ -1,0 +1,10 @@
+name = "A060957Certified"
+version = "0.2.0"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.36.0"
+
+[[lean_lib]]
+name = "A060957"

@@ -1,0 +1,45 @@
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+'A060957.source_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.force' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.canProd_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.chain_subset_sum_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.interval_minkowski' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.chain_subset_realize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.chain_realize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GapStructure.gap_step_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GapStructure.smooth_step' depends on axioms: [propext, Quot.sound]
+'A060957Smoke.residual954316_3' depends on axioms: [propext]
+'A060957Smoke.residual954316_4' depends on axioms: [propext]
+'A060957Smoke.residual954316_5' depends on axioms: [propext]
+'A060957Smoke.residual130203_3' depends on axioms: [propext]
+'A060957Smoke.residual130203_4' depends on axioms: [propext]
+'A060957Smoke.residual130203_5' depends on axioms: [propext]
+Scan954316 parts 0 and 1 passed.
+Scan954316 parts 2 and 3 passed.
+Scan954316 parts 4 and 5 passed.
+Scan954316 parts 6 and 7 passed.
+Scan954316 parts 8 and 9 passed.
+Scan954316 parts 10 and 11 passed.
+Scan954316 parts 12 and 13 passed.
+Scan954316 parts 14 and 15 passed.
+'A060957.Case954316.disproof' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.Case954316.disproof_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+A060957.Case954316.counterexample954316 :
+  Nat.Prime A060957.Case954316.p ∧
+    A060957.Case954316.p ≤ A060957.Case954316.N ∧
+      A060957.InP A060957.Case954316.N A060957.Case954316.M ∧
+        ¬A060957.InP A060957.Case954316.N (A060957.Case954316.p * A060957.Case954316.M) ∧
+          A060957.InP A060957.Case954316.N (A060957.Case954316.p ^ 2 * A060957.Case954316.M)
+A060957.Case954316.disproof_source :
+  ¬∀ (n p : ℕ),
+      Nat.Prime p →
+        p ≤ n →
+          ∀ (m a_exp : ℕ),
+            m ∈ A060957.productsOfSubsets n →
+              p ^ a_exp * m ∈ A060957.productsOfSubsets n →
+                ∀ (k : ℕ), 0 < k → k < a_exp → p ^ k * m ∈ A060957.productsOfSubsets n
+'A060957.Case954316.counterexample954316' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.Case954316.disproof_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+A060957.Case954316.counterexample954316 ['Classical.choice', 'Quot.sound', 'propext']
+A060957.Case954316.disproof_source ['Classical.choice', 'Quot.sound', 'propext']
+Axiom allow-list passed for supplied log. Check actual Lean exit status and provenance separately.

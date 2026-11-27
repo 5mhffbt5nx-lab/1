@@ -1,0 +1,19 @@
+A060957.Case954316.counterexample954316 :
+  Nat.Prime A060957.Case954316.p ∧
+    A060957.Case954316.p ≤ A060957.Case954316.N ∧
+      A060957.InP A060957.Case954316.N A060957.Case954316.M ∧
+        ¬A060957.InP A060957.Case954316.N (A060957.Case954316.p * A060957.Case954316.M) ∧
+          A060957.InP A060957.Case954316.N (A060957.Case954316.p ^ 2 * A060957.Case954316.M)
+A060957.Case954316.disproof_source :
+  ¬∀ (n p : ℕ),
+      Nat.Prime p →
+        p ≤ n →
+          ∀ (m a_exp : ℕ),
+            m ∈ A060957.productsOfSubsets n →
+              p ^ a_exp * m ∈ A060957.productsOfSubsets n →
+                ∀ (k : ℕ), 0 < k → k < a_exp → p ^ k * m ∈ A060957.productsOfSubsets n
+'A060957.Case954316.counterexample954316' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.Case954316.disproof_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+A060957.Case954316.counterexample954316 ['Classical.choice', 'Quot.sound', 'propext']
+A060957.Case954316.disproof_source ['Classical.choice', 'Quot.sound', 'propext']
+Axiom allow-list passed for supplied log. Check actual Lean exit status and provenance separately.

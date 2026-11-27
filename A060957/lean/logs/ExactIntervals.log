@@ -1,0 +1,5 @@
+'A060957.chain_subset_sum_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.interval_minkowski' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.intervalSum_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.chain_subset_realize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'A060957.chain_realize' depends on axioms: [propext, Classical.choice, Quot.sound]

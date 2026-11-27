@@ -10,6 +10,6 @@ The exhaustive scan determines all neutral factors. The verifier independently c
 
 $$\{e\ge0:CZp^e\in P_n\}=\{0,1,2,3,5,6,7,8\}.$$
 
-The run log [verify_recent.log](verify_recent.log) records both successful computations. The resulting bound on the least counterexample is at most 69819; the separate finite lower-bound report gives 84, but its complete search certificate is not included here. These two newer instances are not Lean-certified in this release. The earlier instances 130203 and 954316 are treated separately.
+The run log [verify_recent.log](verify_recent.log) records both successful computations. The resulting bound on the least counterexample is at most 69819; no global minimum or finite lower bound is established by the four certificates published here. These two newer instances are not Lean-certified in this release. The earlier instances 130203 and 954316 are treated separately.
 
 Run: python3 verify_recent.py (from this directory, with verify.py alongside it). No external dependencies.
