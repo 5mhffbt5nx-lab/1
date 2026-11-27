@@ -1,16 +1,19 @@
 # A060957 — explicit subset-product counterexamples
 
-Research material prepared 2026-11-27. This directory is separate from the repository's existing LaTeX demonstration.
+AI-assisted research, 27 November 2026. The original conjecture was already disproved by earlier work; see the references in the research note. No claim of first disproof, global minimality, or complete priority clearance.
 
-The two instances are (n,p)=(130203,53) and (954316,101). Both show m,p^2 m in P_n but p m outside P_n. No claim of first disproof, global minimality or priority clearance is made.
+| n | p | Evidence |
+|---:|---:|---|
+| 69819 | 59 | exact integer certificate; not Lean-certified |
+| 72335 | 43 | exact integer certificate; not Lean-certified |
+| 130203 | 53 | exact integer certificate; archived Lean R02 certification |
+| 954316 | 101 | exact integer certificate; archived Lean R02 certification |
 
-- [Research note](paper.md): complete mathematical reduction, explicit weights, valuation equations and finite certificate.
-- [Exact Python verifier](verify.py): standard library only, exhaustive scan and divisor-pruned subset products.
-- [Actual Python run](verify.log): output for both instances.
-- Formal verification: the original R02 archive has been located and its 41 listed SHA-256 checks passed; the reported Lean 4.36.0 audits establish both counterexamples. The current packaging environment cannot rerun Lean. The Lean source archive is a separate artifact; see the research note for exact scope.
+- [Research note for the two original examples](paper.md)
+- [Supplement for the two smaller examples](recent.md)
+- [Python verifier (original examples)](verify.py) and [run log](verify.log)
+- [Python verifier (new examples)](verify_recent.py) and [run log](verify_recent.log)
 
-Run from this directory:
+Run from this directory: python3 verify.py and python3 verify_recent.py. Do not use Python -O. Standard library only. For each case the relative exponent fiber is exactly {0,1,2,3,5,6,7,8}.
 
-    python3 verify.py
-
-Do not use Python -O. No external dependencies are needed. The previous public counterexamples by Wentao Li and Sungsoo Na are credited in the note. AI-assisted research; not peer reviewed.
+The Lean R02 proofs apply only to the original examples, not the two new ones or the asymptotic theory. The original archive has been located and hash-checked; formalization is kept distinct from the Python certificates.

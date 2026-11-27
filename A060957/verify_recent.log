@@ -1,0 +1,10 @@
+n=72335, p=43: D/positive/negative/zero = (7313, 765, 6527, 21)
+  C exponent vector: [131, 299, 220, 118, 252, 165, 121, 178, 478, 104, 393, 151, 99, 84]
+  m exponent vector: [133, 301, 222, 120, 254, 167, 123, 180, 480, 106, 395, 153, 101, 87]
+  residual states: 5072 fiber: [0, 1, 2, 3, 5, 6, 7, 8]
+  PASS: m and p^2*m belong to P_n; p*m does not.
+n=69819, p=59: D/positive/negative/zero = (7021, 5082, 1920, 19)
+  C exponent vector: [12879, 4378, 3664, 2478, 915, 921, 1158, 800, 755, 824, 745, 611, 556, 417]
+  m exponent vector: [12881, 4380, 3666, 2480, 917, 923, 1160, 802, 757, 826, 747, 613, 558, 420]
+  residual states: 4251 fiber: [0, 1, 2, 3, 5, 6, 7, 8]
+  PASS: m and p^2*m belong to P_n; p*m does not.
